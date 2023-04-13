@@ -2,14 +2,13 @@
 from bs4 import BeautifulSoup
 from pathlib import Path
 import requests
-import re
 import os
 
 ### Download image Per Keyword 
 img_download_count = 4
 
 ### Image keywords
-keys = ["dog","facebook", "new york", "cat"]
+keys = ["brainstorm", "blueprint", "turkey", "groundhog", "cheetah", "knee", "inertia", "tribe", "president", "champion", "opaque", "sapphire", "promise", "digestion", "population", "riddle", "Zen", "rival", "error", "tutor", "navigate", "wetlands", "forklift", "pelt", "writhe", "form", "dugout", "panic", "improve", "wormhole", "blunt", "courthouse", "wealth", "rhyme", "statement", "neutron", "dud", "admire", "companion", "quiver", "danger", "interference", "ligament", "altitude", "observatory", "chord", "treatment", "drift", "shame", "cartography"]
 
 ### Image saving folder Create
 def save_image(key):
@@ -19,66 +18,54 @@ def save_image(key):
         os.makedirs(image_folder)
     return image_folder
 
+
 ### Image searching and collect all images Url
 def img_name(key):
-    URL = f'https://www.google.com/search?q={key}&tbm=isch'
-    headinfo = {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Accept-Language": "en-US,en;q=0.5",
-        "Connection": 'keep-alive',
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0"
-    }
-
-### request for image page
-    page = requests.get(URL, headers=headinfo).content
-    soup = BeautifulSoup(page, 'html.parser')
-    script = soup.findAll('script')
-    
-### Image url List
+    ### Image url List
     image_list = []
-    for x in script:
-        img = x.text
-        a = re.findall(
-            "(((https://www)|(http://)|(www))[-a-zA-Z0-9@:%_\+.~#?&//=]+)\.(jpg|jpeg|gif|png|bmp|tiff|tga|svg)", img)
-        for i in a:
-            full_url = f"{i[0]}.{i[5]}"
-            image_list.append(full_url)
+    url = f"https://www.bing.com/images/search?q={key}" # search URL for image results
+    print(url)
+
+    response = requests.get(url)
+    for _ in range(6):
+        soup = BeautifulSoup(response.content, "html.parser")
+        response = requests.get(url, headers={"Range": "bytes=100-"})
+        results = soup.find_all("div", class_="imgpt")
+        
+    for x in range(img_download_count):
+        img_url = results[x].find("img")["src"]
+        image_list.append(img_url)
+        
     return image_list
 
 ### Image downloading 
-def download_image(list_image, key, img_download_count=4):
-    count = 1
+def download_image(list_image, key):
+    i=0
     for image_url in list_image:
-        if count > img_download_count:
-            break
-        
-        if 'http' not in image_url:
-            try:
-                page = requests.get(f"https://{image_url}")
-            except Exception:
-                page = requests.get(f"http://{image_url}")
-        else:
-            page = requests.get(image_url)
-            
-        if page.status_code != 200:
-            continue
-        
+        page = requests.get(image_url)
 ### Image file name Create
         filename = image_url.split("/")[-1]
-        full_filename = save_image(key) + filename
+        filename = filename.replace(".", "-").replace("?", "-").replace("=", "-")
+        full_filename = save_image(key) + filename+ ".jpg"
 
 ### Image name create and save image        
         with open(full_filename, 'wb') as f:
             f.write(page.content)
-        count += 1
-        
+            #print(full_filename)
     return "Collection Success"
 
 ### Loop for Image Keywords
 for key in keys:
-    list_image = img_name(key)
-    download_image(list_image,key,img_download_count)
+    try:
+        list_image = img_name(key)
+        download_image(list_image,key)
+    except:
+        try:
+            list_image = img_name(key)
+            download_image(list_image, key)
+        except:
+            pass
+
     print("Collection Done.... >>> " , key)
     
 print(" ------ Collection End  ------")
