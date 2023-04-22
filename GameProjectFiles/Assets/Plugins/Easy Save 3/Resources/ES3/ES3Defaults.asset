@@ -30,8 +30,8 @@ MonoBehaviour:
     serializationDepthLimit: 64
     assemblyNames:
     - Assembly-CSharp-firstpass
-    - IngameDebugConsole.Runtime
     - Assembly-CSharp
+    - IngameDebugConsole.Runtime
     - TextJuicer
     - IngameDebugConsole.Editor
     showAdvancedSettings: 0

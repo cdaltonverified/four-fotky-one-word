@@ -14,7 +14,7 @@ public class CanvasManager : MonoBehaviour
     public GameObject SpinPanel;
     public GameObject Particles;
     public List<GameObject> AllScreens;
-    public Transform POs;
+   // public Transform POs;
     public TextMeshProUGUI _LevelcompleteText;
     [SerializeField]
     private States _Gamestate;
@@ -87,24 +87,29 @@ public class CanvasManager : MonoBehaviour
     }
     public void CheckLevel() {
 
-        if (Session.Instance.CurrentLevel==49)
+        if (Session.Instance.CurrentLevel==50)
         {
+            SoundManager.Instance.PlayOnshootSound(SoundManager.Instance.LevelCompleteAudio);
             _LevelcompleteText.text = "Level 1 is Completed";
         }
-        else if (Session.Instance.CurrentLevel == 99)
+        else if (Session.Instance.CurrentLevel == 100)
         {
+            SoundManager.Instance.PlayOnshootSound(SoundManager.Instance.LevelCompleteAudio);
             _LevelcompleteText.text = "Level 2 is Completed";
         }
-        else if (Session.Instance.CurrentLevel == 149)
+        else if (Session.Instance.CurrentLevel == 150)
         {
+            SoundManager.Instance.PlayOnshootSound(SoundManager.Instance.LevelCompleteAudio);
             _LevelcompleteText.text = "Level 3 is Completed";
         }
-        else if (Session.Instance.CurrentLevel == 199)
+        else if (Session.Instance.CurrentLevel == 200)
         {
+            SoundManager.Instance.PlayOnshootSound(SoundManager.Instance.LevelCompleteAudio);
             _LevelcompleteText.text = "Level 4 is Completed";
         }
-        else if (Session.Instance.CurrentLevel == 249)
+        else if (Session.Instance.CurrentLevel == 250)
         {
+            SoundManager.Instance.PlayOnshootSound(SoundManager.Instance.LevelCompleteAudio);
             _LevelcompleteText.text = "Congratulation!! All the level is Completed";
         }
 

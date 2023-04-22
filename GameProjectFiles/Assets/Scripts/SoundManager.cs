@@ -12,6 +12,7 @@ public class SoundManager : Singletion<SoundManager>
     public AudioClip Win;
     public AudioClip RevertBtn;
     public AudioClip ClickAlphabet;
+    public AudioClip LevelCompleteAudio;
     private void OnEnable()
     {
         UpdateSound();
