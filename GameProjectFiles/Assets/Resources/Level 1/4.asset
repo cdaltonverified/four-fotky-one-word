@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  levelNum: 4
+  correctkeyword: snow
+  _LevelImages:
+  - {fileID: 21300000, guid: e6ae97b6a02ee454f81a039fee8c909d, type: 3}
+  - {fileID: 21300000, guid: 37115bc109aeab440950991e51c08644, type: 3}
+  - {fileID: 21300000, guid: e0abc5665e0b9f745a9ab6a998f510ff, type: 3}
+  - {fileID: 21300000, guid: 2cd5d66f75d70724fa4234137ad52204, type: 3}
