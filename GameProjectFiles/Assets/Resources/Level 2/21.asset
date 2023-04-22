@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 21
+  m_EditorClassIdentifier: 
+  LevelNumber: 2
+  levelNum: 71
+  correctkeyword: hammer
+  _LevelImages:
+  - {fileID: 21300000, guid: 98fd4c7f9c9b72e428f606eb6afe98c4, type: 3}
+  - {fileID: 21300000, guid: 0f8bc1de88249de4f80fb133d2a504ed, type: 3}
+  - {fileID: 21300000, guid: 2980bfe03ee962d4d81fe6a2a4caf74a, type: 3}
+  - {fileID: 21300000, guid: ab0979b321a96ca4dbe012bf85f15dc5, type: 3}

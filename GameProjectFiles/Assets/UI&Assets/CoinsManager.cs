@@ -80,7 +80,7 @@ public class CoinsManager : MonoBehaviour
 		}
 	}
 
-	void Animate (Vector3 collectedCoinPosition, int amount)
+	public void Animate (Vector3 collectedCoinPosition, int amount)
 	{
 		for (int i = 0; i < amount; i++) {
 			//check if there's coins in the pool
@@ -90,7 +90,7 @@ public class CoinsManager : MonoBehaviour
                 coin.SetActive(true);
 
                 //move coin to the collected coin pos
-                coin.transform.position = transform.position + new Vector3 (Random.Range (-spread, spread), 0f, 0f);
+                coin.transform.position =coin.transform.position + new Vector3 (Random.Range (-spread, spread), 0f, 0f);
 
 				//animate coin to target position
 				float duration = Random.Range (minAnimDuration, maxAnimDuration);

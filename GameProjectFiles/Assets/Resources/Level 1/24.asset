@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 24
+  m_EditorClassIdentifier: 
+  LevelNumber: 1
+  levelNum: 24
+  correctkeyword: mattress
+  _LevelImages:
+  - {fileID: 21300000, guid: 8527ad94966a2204f8866f61802c419b, type: 3}
+  - {fileID: 21300000, guid: 194838b5ffd70574581f0d408b2cfb44, type: 3}
+  - {fileID: 21300000, guid: b514b101e9ac54046b3218b4b76cc69e, type: 3}
+  - {fileID: 21300000, guid: 73d370ab671515849887539f88e2d94c, type: 3}

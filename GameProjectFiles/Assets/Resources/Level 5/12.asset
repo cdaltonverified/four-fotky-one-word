@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  LevelNumber: 5
+  levelNum: 212
+  correctkeyword: danger
+  _LevelImages:
+  - {fileID: 21300000, guid: 46006f8f99038284784d8689d2115029, type: 3}
+  - {fileID: 21300000, guid: 30c10e6a66c82294a95cf0e72c30eb29, type: 3}
+  - {fileID: 21300000, guid: 2c9e9d33818edcb4c817cbaa89d83606, type: 3}
+  - {fileID: 21300000, guid: aab162781ffd8014e8afce53ade5e935, type: 3}

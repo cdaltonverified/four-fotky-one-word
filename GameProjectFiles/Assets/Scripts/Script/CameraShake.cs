@@ -22,7 +22,9 @@ public class CameraShake : MonoBehaviour
         _fakeDelta = _timeAtCurrentFrame - _timeAtLastFrame;
         _timeAtLastFrame = _timeAtCurrentFrame;
     }
-
+    public void _Shake() {
+        Shake(.25f,50f);
+    }
     public static void Shake(float duration, float amount)
     {
         instance._originalPos = instance.gameObject.transform.localPosition;
@@ -36,8 +38,9 @@ public class CameraShake : MonoBehaviour
 
         while (duration > 0)
         {
-            transform.localPosition = _originalPos + Random.insideUnitSphere * amount;
-
+            Vector3 Pos = _originalPos + Random.insideUnitSphere * amount;
+            Pos.y = transform.localPosition.y;
+            transform.localPosition = Pos;
             duration -= _fakeDelta;
 
             yield return null;

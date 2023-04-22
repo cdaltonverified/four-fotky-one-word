@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 42
+  m_EditorClassIdentifier: 
+  LevelNumber: 1
+  levelNum: 42
+  correctkeyword: sun
+  _LevelImages:
+  - {fileID: 21300000, guid: f96610044ff61be4d96dfe41247def10, type: 3}
+  - {fileID: 21300000, guid: bd89336f0c86211458f4c3b45be58bd9, type: 3}
+  - {fileID: 21300000, guid: f4631184b842de94b8f8b889bc5cd4a9, type: 3}
+  - {fileID: 21300000, guid: 94f8678ef8d2115459cd312b81648398, type: 3}

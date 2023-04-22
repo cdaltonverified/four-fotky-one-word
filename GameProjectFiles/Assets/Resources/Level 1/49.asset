@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 49
+  m_EditorClassIdentifier: 
+  LevelNumber: 1
+  levelNum: 49
+  correctkeyword: water
+  _LevelImages:
+  - {fileID: 21300000, guid: 5fc68def603094d409ce90f5037d5020, type: 3}
+  - {fileID: 21300000, guid: e09be1b2dd4323f4da6ebb770a1aa912, type: 3}
+  - {fileID: 21300000, guid: 847082547cdcf9043a87b60c14d1482f, type: 3}
+  - {fileID: 21300000, guid: ad7a8d313eb2a234da9117e75d8cfca2, type: 3}

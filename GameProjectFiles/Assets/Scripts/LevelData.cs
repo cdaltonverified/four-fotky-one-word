@@ -6,8 +6,6 @@ using UnityEngine;
 public class Level
 {
   public bool Isopened;
-//  public int Moves;
- // public int Colectable;
 }
 public class LevelData : Singletion<LevelData>
 {

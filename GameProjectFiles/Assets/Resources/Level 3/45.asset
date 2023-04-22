@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 45
+  m_EditorClassIdentifier: 
+  LevelNumber: 3
+  levelNum: 145
+  correctkeyword: truck
+  _LevelImages:
+  - {fileID: 21300000, guid: 61f5e62ec2ace1a4a9711a6cfd84c6f7, type: 3}
+  - {fileID: 21300000, guid: e0324de774867774e9993d55af07bf33, type: 3}
+  - {fileID: 21300000, guid: 0c6709660c4ac914698b91f9f06bb941, type: 3}
+  - {fileID: 21300000, guid: 5f393b3aaa895954a8d5c5de2b4dee5c, type: 3}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 18
+  m_EditorClassIdentifier: 
+  LevelNumber: 5
+  levelNum: 218
+  correctkeyword: forklift
+  _LevelImages:
+  - {fileID: 21300000, guid: d88f225fad861164fb292d4411ea54a6, type: 3}
+  - {fileID: 21300000, guid: e8564ed57ebf7aa4f8cf984bd4bd2e07, type: 3}
+  - {fileID: 21300000, guid: 47bd3b7a6c3b7bf45a104f8721bcf5b7, type: 3}
+  - {fileID: 21300000, guid: 91a85eb0da0fb0c44a84448f475607ac, type: 3}

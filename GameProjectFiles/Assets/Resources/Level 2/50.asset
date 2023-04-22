@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 50
+  m_EditorClassIdentifier: 
+  LevelNumber: 2
+  levelNum: 100
+  correctkeyword: zoo
+  _LevelImages:
+  - {fileID: 21300000, guid: da232ac6528b6794489df6db8570424b, type: 3}
+  - {fileID: 21300000, guid: ce32c6fafd99fd64e9d3faf2fa705fcc, type: 3}
+  - {fileID: 21300000, guid: 16f1a685a2275044f85895ce787dd05c, type: 3}
+  - {fileID: 21300000, guid: 5db1102cd83aa59439f18545c6a2823a, type: 3}

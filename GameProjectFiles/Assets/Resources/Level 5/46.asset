@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 46
+  m_EditorClassIdentifier: 
+  LevelNumber: 5
+  levelNum: 246
+  correctkeyword: wealth
+  _LevelImages:
+  - {fileID: 21300000, guid: 44027f17a73c9dd47b24a7216dbfbe17, type: 3}
+  - {fileID: 21300000, guid: ac700a0326ff6c7498ea2b2925a0c04b, type: 3}
+  - {fileID: 21300000, guid: a516926637bf3074aa993587d3aeeeec, type: 3}
+  - {fileID: 21300000, guid: bb30264f25d3c124cae79abedecd7366, type: 3}

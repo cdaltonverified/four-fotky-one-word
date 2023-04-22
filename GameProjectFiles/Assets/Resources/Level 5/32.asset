@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 32
+  m_EditorClassIdentifier: 
+  LevelNumber: 5
+  levelNum: 232
+  correctkeyword: pelt
+  _LevelImages:
+  - {fileID: 21300000, guid: 02de178540386a04ca1f405e98effb27, type: 3}
+  - {fileID: 21300000, guid: 61868f4d59129474e9cf51c0e96fa31a, type: 3}
+  - {fileID: 21300000, guid: 5fb04141b30e4164abab011183be0a8c, type: 3}
+  - {fileID: 21300000, guid: 500c4fa5c5701254395f1fc8b8392cba, type: 3}

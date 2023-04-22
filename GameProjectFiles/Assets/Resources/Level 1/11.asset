@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  LevelNumber: 1
+  levelNum: 11
+  correctkeyword: charger
+  _LevelImages:
+  - {fileID: 21300000, guid: e4ab884b73bcdff418f6dc1d8983dcf0, type: 3}
+  - {fileID: 21300000, guid: 959561f330174af448cc044c812d95bd, type: 3}
+  - {fileID: 21300000, guid: 45d48d4647f6ffc4cbc95baa3055ecbb, type: 3}
+  - {fileID: 21300000, guid: ed1129ec265d72f4cbb54296fe7d4725, type: 3}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 20
+  m_EditorClassIdentifier: 
+  LevelNumber: 1
+  levelNum: 20
+  correctkeyword: ipad
+  _LevelImages:
+  - {fileID: 21300000, guid: 348176dd86899a24d868ee6d5a324b0a, type: 3}
+  - {fileID: 21300000, guid: 3d710ee68d1b1da44abdf5a9f52a3224, type: 3}
+  - {fileID: 21300000, guid: 4f1a3227cba665c49bb08cd1eefbb29b, type: 3}
+  - {fileID: 21300000, guid: 7ed7f71c092a78d49aacfff6f556b3e0, type: 3}

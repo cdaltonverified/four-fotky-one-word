@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
+  LevelNumber: 1
   levelNum: 6
-  correctkeyword: tree
+  correctkeyword: boot
   _LevelImages:
-  - {fileID: 21300000, guid: 829783918a921d54ebca20bcca1b5ddf, type: 3}
-  - {fileID: 21300000, guid: 9f01be48c5c9c3348979a770651a0b6a, type: 3}
-  - {fileID: 21300000, guid: f8fd76200c3db2e45b6d0915dec9e09f, type: 3}
-  - {fileID: 21300000, guid: fbb09b288bbb78d4fa17d4e186cab6be, type: 3}
+  - {fileID: 21300000, guid: c23e95eca8ae21d46aa8063e85596532, type: 3}
+  - {fileID: 21300000, guid: 7ffb5892611d4e341be1e0dc8a56619d, type: 3}
+  - {fileID: 21300000, guid: 2031dbb337d5cf94b9e03ef0c4839b3e, type: 3}
+  - {fileID: 21300000, guid: 0a7750646ccb6ea40bf370e3d8855ae1, type: 3}

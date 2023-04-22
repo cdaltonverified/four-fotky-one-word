@@ -8,9 +8,10 @@ public class SoundManager : Singletion<SoundManager>
     public AudioSource Background;
     public AudioSource Effect;
     public AudioClip Click;
-   // public AudioClip Over;
-    //public AudioClip Win;
-
+    public AudioClip Over;
+    public AudioClip Win;
+    public AudioClip RevertBtn;
+    public AudioClip ClickAlphabet;
     private void OnEnable()
     {
         UpdateSound();

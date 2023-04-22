@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 25
+  m_EditorClassIdentifier: 
+  LevelNumber: 3
+  levelNum: 125
+  correctkeyword: knee
+  _LevelImages:
+  - {fileID: 21300000, guid: d425659e23edb1545b043fe1f1f73b7a, type: 3}
+  - {fileID: 21300000, guid: 55e713d1cb1dbf546a8971b0ffd616f1, type: 3}
+  - {fileID: 21300000, guid: 9c225d8d9b3c12a4ebd530166da23156, type: 3}
+  - {fileID: 21300000, guid: 526d7b10a9a42294d8ec68f0a1156953, type: 3}

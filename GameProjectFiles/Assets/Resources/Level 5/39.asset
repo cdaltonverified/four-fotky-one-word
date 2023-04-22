@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 39
+  m_EditorClassIdentifier: 
+  LevelNumber: 5
+  levelNum: 239
+  correctkeyword: rival
+  _LevelImages:
+  - {fileID: 21300000, guid: 5e20ccd5471ba2c45806f22a67fb82f0, type: 3}
+  - {fileID: 21300000, guid: 371c4e56bbf9395448464b7fe3a5067e, type: 3}
+  - {fileID: 21300000, guid: 9da7ff97269fea74fa0971dcf82c121d, type: 3}
+  - {fileID: 21300000, guid: 963ef22158e37be4fb8183cd12ba55a4, type: 3}

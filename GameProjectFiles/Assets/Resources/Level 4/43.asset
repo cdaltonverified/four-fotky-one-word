@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 43
+  m_EditorClassIdentifier: 
+  LevelNumber: 4
+  levelNum: 193
+  correctkeyword: tintin
+  _LevelImages:
+  - {fileID: 21300000, guid: c1e3f518279d4cb4eaf6ab0814976e15, type: 3}
+  - {fileID: 21300000, guid: 2ca487f15c8c6b949b27cc395795ed2c, type: 3}
+  - {fileID: 21300000, guid: 26bf5c67616b16447ac015e706c471d8, type: 3}
+  - {fileID: 21300000, guid: cc7f063ca9090114d9d6c5899db5b7c8, type: 3}

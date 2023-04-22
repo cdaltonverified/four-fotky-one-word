@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  LevelNumber: 5
+  levelNum: 208
+  correctkeyword: cheetah
+  _LevelImages:
+  - {fileID: 21300000, guid: 32485c9b159b82d4c834a6977bf9c6ef, type: 3}
+  - {fileID: 21300000, guid: c5813a6f7b7d170448b01f1fd7da223d, type: 3}
+  - {fileID: 21300000, guid: 19f29c17ea1e7954e8221c91eee865ce, type: 3}
+  - {fileID: 21300000, guid: efb9050e318f78b42a51234898e4970c, type: 3}

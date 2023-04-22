@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 44
+  m_EditorClassIdentifier: 
+  LevelNumber: 2
+  levelNum: 94
+  correctkeyword: shade
+  _LevelImages:
+  - {fileID: 21300000, guid: 89cf09bc0efce3542af7e8850b360722, type: 3}
+  - {fileID: 21300000, guid: 9d0a7909c731cbb4b848a935bab9b754, type: 3}
+  - {fileID: 21300000, guid: 720a614d0bd6de6448838ed1a2a3477d, type: 3}
+  - {fileID: 21300000, guid: 15560f0a727a280409bc8c55ab8aa94a, type: 3}

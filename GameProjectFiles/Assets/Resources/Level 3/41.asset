@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 41
+  m_EditorClassIdentifier: 
+  LevelNumber: 3
+  levelNum: 141
+  correctkeyword: saddle
+  _LevelImages:
+  - {fileID: 21300000, guid: ccd6f56d85bcbf644b9fa398cbac2ea6, type: 3}
+  - {fileID: 21300000, guid: a2e7cc1f60f31db40b947f05a77a7ee4, type: 3}
+  - {fileID: 21300000, guid: c5b75a5f8396a634ba7d325c876f1937, type: 3}
+  - {fileID: 21300000, guid: cef597ace87a28842b6f13e508071f5e, type: 3}

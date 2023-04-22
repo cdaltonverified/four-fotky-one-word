@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  LevelNumber: 4
+  levelNum: 164
+  correctkeyword: flight
+  _LevelImages:
+  - {fileID: 21300000, guid: 56014ce5ecbaed0459638c266309a453, type: 3}
+  - {fileID: 21300000, guid: 379d11d613c0d9e40a3e49c8dffe4f60, type: 3}
+  - {fileID: 21300000, guid: 6230be689d28be143bf9c58f88827c06, type: 3}
+  - {fileID: 21300000, guid: 4935530f2c0ff304e85fc8ef363264d3, type: 3}

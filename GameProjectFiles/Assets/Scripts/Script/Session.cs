@@ -9,9 +9,13 @@ public class Session : Singletion<Session>
    public int UnlockedCount;
     public int CurrentLevel;
     public int levelCount;
+    public bool Loading=true;
    private void OnEnable()
    {
-      UnlockedCount = PlayerPrefs.GetInt("UnLock", 1);
+        int Value = PlayerPrefs.GetInt(Constants.SaveCurrentLevel, 0);
+        Session.Instance.CurrentLevel = Value;
+
+        UnlockedCount = PlayerPrefs.GetInt("UnLock", 1);
    }
 
    private void OnDisable()

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 27
+  m_EditorClassIdentifier: 
+  LevelNumber: 1
+  levelNum: 27
+  correctkeyword: notebook
+  _LevelImages:
+  - {fileID: 21300000, guid: 4c7d58f03e2927a4f83e86bfe68b5f2c, type: 3}
+  - {fileID: 21300000, guid: 7b21890b303d0d34caa7a3874ab073af, type: 3}
+  - {fileID: 21300000, guid: 34c0b57a26fddba408f2e50efe363d1d, type: 3}
+  - {fileID: 21300000, guid: 4a55bac709f2b2e489303ab5f050815a, type: 3}

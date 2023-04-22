@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e06871e8c32cb459370bb0335acc79, type: 3}
+  m_Name: 40
+  m_EditorClassIdentifier: 
+  LevelNumber: 4
+  levelNum: 190
+  correctkeyword: rhyme
+  _LevelImages:
+  - {fileID: 21300000, guid: 8881cb82f0732a64495b0f33a9affb72, type: 3}
+  - {fileID: 21300000, guid: 62db546055921534a97180a9e1ff0232, type: 3}
+  - {fileID: 21300000, guid: 7b83e458c78bf8a40897f298e9ef2fc1, type: 3}
+  - {fileID: 21300000, guid: a765e20d0c4a2ac45a2dc2b20dab618c, type: 3}
