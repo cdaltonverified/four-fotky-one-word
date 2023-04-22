@@ -14,7 +14,7 @@ public class CanvasManager : MonoBehaviour
     public GameObject SpinPanel;
     public GameObject Particles;
     public List<GameObject> AllScreens;
-   // public Transform POs;
+    public GameObject Continue;
     public TextMeshProUGUI _LevelcompleteText;
     [SerializeField]
     private States _Gamestate;
@@ -110,7 +110,8 @@ public class CanvasManager : MonoBehaviour
         else if (Session.Instance.CurrentLevel == 250)
         {
             SoundManager.Instance.PlayOnshootSound(SoundManager.Instance.LevelCompleteAudio);
-            _LevelcompleteText.text = "Congratulation!! All the level is Completed";
+            _LevelcompleteText.text = "Congratulation!! All the level are Completed";
+            Continue.SetActive(false);
         }
 
     }
